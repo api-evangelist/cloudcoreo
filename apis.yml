@@ -1,7 +1,29 @@
 aid: cloudcoreo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudcoreo.png
 name: Cloudcoreo
-description: Cloudcoreo is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CloudCoreo was a Seattle-based cloud security startup (founded 2016, seed
+  round led by Madrona Venture Group) that built a cloud configuration and
+  vulnerability-assessment platform to identify and remediate misconfigurations
+  across public multi-cloud environments (AWS, Azure, GCP). VMware acquired
+  CloudCoreo in February 2018 and folded the team and product into VMware Cloud
+  Services, where it became the basis of CloudHealth Secure State. The
+  standalone CloudCoreo service and developer surface have since been retired:
+  cloudcoreo.com is now a parked/for-sale domain and there is no live public
+  API. The CloudCoreo GitHub organization remains, hosting the now-deprecated
+  first-party CLI. This profile is a historical/lineage record, not an active
+  API provider.
 url: https://raw.githubusercontent.com/api-evangelist/cloudcoreo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,32 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: acquired-by-vmware-2018; product folded into VMware CloudHealth Secure State; cloudcoreo.com parked
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cloud Security
+- Cloud Configuration
+- Vulnerability Management
+- Multi-Cloud
+- DevSecOps
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/CloudCoreo
+- type: CLI
+  url: cli/cloudcoreo-cli.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/CloudCoreo/cli
+name: coreo
+deprecated: true
+deprecation_note: >-
+  Officially deprecated. The repository README states: "We have stopped support
+  for CLI and deprecated it. Please use CloudHealth Secure State CloudAccount
+  Service API instead." CloudCoreo was acquired by VMware (Feb 2018) and its
+  product became VMware CloudHealth Secure State; the standalone cloudcoreo.com
+  service is retired and the domain is now parked.
+language: go
+license: Apache-2.0
+repository: https://github.com/CloudCoreo/cli
+last_pushed: '2023-02-24'
+install:
+  - method: source
+    command: go get github.com/CloudCoreo/cli
+notes: >-
+  First-party command-line client for the CloudCoreo / CloudHealth Secure State
+  cloud security platform. Retained here for historical/lineage record only; no
+  live backend service remains under the CloudCoreo brand.
