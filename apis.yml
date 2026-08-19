@@ -33,7 +33,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: acquired-by-vmware-2018; product folded into VMware CloudHealth Secure State; cloudcoreo.com parked
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
